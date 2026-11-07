@@ -41,7 +41,7 @@ services:
       OPENVPN_ADMIN_PASSWORD: "ETXLBZPmmJH3mLBH"
 
     ports:
-      - "127.0.0.1:8080:8080/tcp"
+      - "8080:8080/tcp"
 
     volumes:
       - ./:/etc/openvpn
